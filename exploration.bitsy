@@ -41,10 +41,10 @@ NAME forest
 255,37,24
 
 ROOM 0
-e,e,e,e,e,e,e,h,e,e,e,e,e,e,e,e
-e,x,x,x,x,x,x,0,x,x,x,x,x,x,x,e
+e,e,e,e,e,20,26,h,27,20,e,e,e,e,e,e
+e,x,x,x,x,w,b,0,b,w,x,x,x,x,x,e
 e,0,0,0,0,0,0,0,0,0,0,0,c,0,0,e
-e,0,c,0,d,c,0,l,0,0,0,c,0,0,0,e
+e,0,c,0,0,0,0,0,0,0,0,c,0,0,0,e
 e,0,b,0,b,0,0,0,0,0,0,0,c,0,0,e
 e,0,0,0,c,s,t,t,s,s,0,0,c,0,0,e
 e,0,d,c,0,s,17,18,1d,p,0,0,0,c,0,e
@@ -55,10 +55,11 @@ e,0,c,0,d,0,0,c,0,0,0,d,0,0,0,e
 e,0,0,0,0,0,0,0,0,0,0,d,0,c,0,e
 e,0,0,0,0,0,0,0,0,d,c,0,0,0,0,e
 e,0,0,c,0,0,0,0,c,0,0,c,0,0,0,e
-e,y,y,d,y,c,y,y,d,y,y,y,c,y,y,e
+e,y,y,d,y,c,y,y,d,y,y,y,w,y,y,e
 e,e,e,e,e,e,e,e,e,e,e,e,e,h,h,e
 NAME Begin
 ITM 0 14,14
+ITM 0 13,14
 EXT 13,15 3 2,0 FX fade_b
 EXT 14,15 3 3,0 FX fade_b
 EXT 7,0 1 6,15
@@ -1859,9 +1860,8 @@ SPR A
 11111111
 10111101
 10100101
-01101100
-POS 1 10,10
-ITM 0 1
+00110110
+POS 0 9,9
 ITM 9 1
 
 SPR a

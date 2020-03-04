@@ -40,6 +40,12 @@ NAME forest
 104,88,57
 255,37,24
 
+PAL 6
+NAME forestend
+100,147,76
+104,88,57
+255,37,24
+
 ROOM 0
 e,e,e,e,e,20,26,h,27,20,e,e,e,e,e,e
 e,x,x,x,x,w,b,0,b,w,x,x,x,x,x,e
@@ -306,17 +312,18 @@ ROOM a
 1z,1z,0,0,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest1
+ITM b 8,9
 EXT 0,13 9 15,7 FX tunnel
 EXT 0,12 9 15,6 FX tunnel
 EXT 0,12 9 15,5 FX tunnel
-EXT 15,11 b 0,11
-EXT 15,12 b 0,12
-EXT 3,15 d 3,0
-EXT 4,15 d 4,0
-EXT 5,0 h 5,15
-EXT 15,1 b 0,1
-EXT 15,2 b 0,2
-EXT 15,6 b 0,6
+EXT 15,11 b 0,11 FX slide_r
+EXT 15,12 b 0,12 FX slide_r
+EXT 3,15 d 3,0 FX slide_d
+EXT 4,15 d 4,0 FX slide_d
+EXT 5,0 h 5,15 FX slide_u
+EXT 15,1 b 0,1 FX slide_r
+EXT 15,2 b 0,2 FX slide_r
+EXT 15,6 b 0,6 FX slide_r
 PAL 5
 
 ROOM b
@@ -337,21 +344,21 @@ ROOM b
 1z,0,0,0,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 1z,0,0,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 NAME forest2
-EXT 0,11 a 15,11
-EXT 0,12 a 15,12
-EXT 7,15 c 7,0
-EXT 8,15 c 8,0
-EXT 9,15 c 9,0
-EXT 1,15 c 1,0
-EXT 2,15 c 2,0
-EXT 0,1 a 15,1
-EXT 0,2 a 15,2
-EXT 0,6 a 15,6
-EXT 15,7 e 0,7
-EXT 15,8 e 0,8
-EXT 15,9 e 0,9
-EXT 5,0 g 5,15
-EXT 6,0 g 6,15
+EXT 0,11 a 15,11 FX slide_l
+EXT 0,12 a 15,12 FX slide_l
+EXT 7,15 c 7,0 FX slide_d
+EXT 8,15 c 8,0 FX slide_d
+EXT 9,15 c 9,0 FX slide_d
+EXT 1,15 c 1,0 FX slide_d
+EXT 2,15 c 2,0 FX slide_d
+EXT 0,1 a 15,1 FX slide_l
+EXT 0,2 a 15,2 FX slide_l
+EXT 0,6 a 15,6 FX slide_l
+EXT 15,7 e 0,7 FX slide_r
+EXT 15,8 e 0,8 FX slide_r
+EXT 15,9 e 0,9 FX slide_r
+EXT 5,0 g 5,15 FX slide_u
+EXT 6,0 g 6,15 FX slide_u
 PAL 5
 
 ROOM c
@@ -372,21 +379,21 @@ ROOM c
 0,0,0,0,0,0,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 NAME forest3
-EXT 7,0 b 7,15
-EXT 8,0 b 8,15
-EXT 9,0 b 9,15
-EXT 1,0 b 1,15
-EXT 2,0 b 2,15
+EXT 7,0 b 7,15 FX slide_u
+EXT 8,0 b 8,15 FX slide_u
+EXT 9,0 b 9,15 FX slide_u
+EXT 1,0 b 1,15 FX slide_u
+EXT 2,0 b 2,15 FX slide_u
 EXT 0,2 d 15,2
-EXT 0,1 d 15,1
-EXT 10,15 l 11,0
-EXT 11,15 l 12,0
-EXT 0,9 d 15,9
-EXT 0,10 d 15,10
-EXT 0,13 d 15,13
-EXT 0,14 d 15,14
-EXT 2,15 l 2,0
-EXT 3,15 l 3,0
+EXT 0,1 d 15,1 FX slide_l
+EXT 10,15 l 10,0 FX slide_d
+EXT 11,15 l 11,0 FX slide_d
+EXT 0,9 d 15,9 FX slide_l
+EXT 0,10 d 15,10 FX slide_l
+EXT 0,13 d 15,13 FX slide_l
+EXT 0,14 d 15,14 FX slide_l
+EXT 2,15 l 2,0 FX slide_d
+EXT 3,15 l 3,0 FX slide_d
 PAL 5
 
 ROOM d
@@ -407,18 +414,19 @@ ROOM d
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,0
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
 NAME forest4
+ITM b 10,10
 EXT 15,2 c 0,2
-EXT 15,1 c 0,1
-EXT 3,0 a 3,15
-EXT 4,0 a 4,15
-EXT 15,9 c 0,9
-EXT 15,10 c 0,10
-EXT 15,13 c 0,13
-EXT 15,14 c 0,14
-EXT 2,15 m 2,0
-EXT 3,15 m 3,0
-EXT 11,15 m 11,0
-EXT 12,15 m 12,0
+EXT 15,1 c 0,1 FX slide_r
+EXT 3,0 a 3,15 FX slide_u
+EXT 4,0 a 4,15 FX slide_u
+EXT 15,9 c 0,9 FX slide_r
+EXT 15,10 c 0,10 FX slide_r
+EXT 15,13 c 0,13 FX slide_r
+EXT 15,14 c 0,14 FX slide_r
+EXT 2,15 m 2,0 FX slide_d
+EXT 3,15 m 3,0 FX slide_d
+EXT 11,15 m 11,0 FX slide_d
+EXT 12,15 m 12,0 FX slide_d
 PAL 5
 
 ROOM e
@@ -439,13 +447,13 @@ ROOM e
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest5
-EXT 0,9 b 15,9
-EXT 0,8 b 15,8
-EXT 0,7 b 15,7
-EXT 6,0 f 6,15
-EXT 7,0 f 7,15
-EXT 13,0 f 13,15
-EXT 14,0 f 14,15
+EXT 0,9 b 15,9 FX slide_l
+EXT 0,8 b 15,8 FX slide_l
+EXT 0,7 b 15,7 FX slide_l
+EXT 6,0 f 6,15 FX slide_u
+EXT 7,0 f 7,15 FX slide_u
+EXT 13,0 f 13,15 FX slide_u
+EXT 14,0 f 14,15 FX slide_u
 PAL 5
 
 ROOM f
@@ -466,21 +474,22 @@ ROOM f
 1z,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,0,0,1z
 1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z,1z,0,0,1z
 NAME forest6
-EXT 6,15 e 6,0
-EXT 7,15 e 7,0
-EXT 13,15 e 13,0
-EXT 14,15 e 14,0
-EXT 0,6 g 15,6
-EXT 0,9 g 15,9
-EXT 0,7 g 15,7
-EXT 0,8 g 15,8
-EXT 4,0 k 4,15
-EXT 5,0 k 5,15
-EXT 8,0 k 8,15
-EXT 9,0 k 9,15
-EXT 10,0 k 10,15
-EXT 13,0 k 13,15
-EXT 14,0 k 14,15
+ITM b 13,12
+EXT 6,15 e 6,0 FX slide_d
+EXT 7,15 e 7,0 FX slide_d
+EXT 13,15 e 13,0 FX slide_d
+EXT 14,15 e 14,0 FX slide_d
+EXT 0,6 g 15,6 FX slide_l
+EXT 0,9 g 15,9 FX slide_l
+EXT 0,7 g 15,7 FX slide_l
+EXT 0,8 g 15,8 FX slide_l
+EXT 4,0 k 4,15 FX slide_u
+EXT 5,0 k 5,15 FX slide_u
+EXT 8,0 k 8,15 FX slide_u
+EXT 9,0 k 9,15 FX slide_u
+EXT 10,0 k 10,15 FX slide_u
+EXT 13,0 k 13,15 FX slide_u
+EXT 14,0 k 14,15 FX slide_u
 PAL 5
 
 ROOM g
@@ -501,15 +510,15 @@ ROOM g
 1z,1z,1z,1z,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest7
-EXT 5,15 b 5,0
-EXT 6,15 b 6,0
-EXT 15,6 f 0,6
-EXT 15,9 f 0,9
-EXT 15,7 f 0,7
-EXT 15,8 f 0,8
-EXT 0,9 h 15,9
-EXT 3,0 i 3,15
-EXT 4,0 i 4,15
+EXT 5,15 b 5,0 FX slide_d
+EXT 6,15 b 6,0 FX slide_d
+EXT 15,6 f 0,6 FX slide_r
+EXT 15,9 f 0,9 FX slide_r
+EXT 15,7 f 0,7 FX slide_r
+EXT 15,8 f 0,8 FX slide_r
+EXT 0,9 h 15,9 FX slide_l
+EXT 3,0 i 3,15 FX slide_u
+EXT 4,0 i 4,15 FX slide_u
 PAL 5
 
 ROOM h
@@ -530,11 +539,12 @@ ROOM h
 1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest8
-EXT 5,15 a 5,0
-EXT 15,9 g 0,9
-EXT 8,0 j 8,15
-EXT 12,0 j 12,15
-EXT 5,0 j 5,15
+ITM b 12,5
+EXT 5,15 a 5,0 FX slide_d
+EXT 15,9 g 0,9 FX slide_r
+EXT 8,0 j 8,15 FX slide_u
+EXT 12,0 j 12,15 FX slide_u
+EXT 5,0 j 5,15 FX slide_u
 PAL 5
 
 ROOM i
@@ -555,16 +565,16 @@ ROOM i
 0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest9
-EXT 3,15 g 3,0
-EXT 4,15 g 4,0
-EXT 0,5 j 15,5
-EXT 0,6 j 15,6
-EXT 0,7 j 15,7
-EXT 0,8 j 15,8
-EXT 15,6 k 0,6
-EXT 15,7 k 0,7
-EXT 15,8 k 0,8
-EXT 0,14 j 15,14
+EXT 3,15 g 3,0 FX slide_d
+EXT 4,15 g 4,0 FX slide_d
+EXT 0,5 j 15,5 FX slide_l
+EXT 0,6 j 15,6 FX slide_l
+EXT 0,7 j 15,7 FX slide_l
+EXT 0,8 j 15,8 FX slide_l
+EXT 15,6 k 0,6 FX slide_r
+EXT 15,7 k 0,7 FX slide_r
+EXT 15,8 k 0,8 FX slide_r
+EXT 0,14 j 15,14 FX slide_l
 PAL 5
 
 ROOM j
@@ -585,14 +595,15 @@ ROOM j
 1z,1z,1z,1z,1z,0,1z,1z,0,1z,1z,1z,0,0,0,0
 1z,1z,1z,1z,1z,0,1z,1z,0,1z,1z,1z,0,1z,1z,1z
 NAME forest10
-EXT 8,15 h 8,0
-EXT 12,15 h 12,0
-EXT 5,15 h 5,0
-EXT 15,5 i 0,5
-EXT 15,6 i 0,6
-EXT 15,7 i 0,7
-EXT 15,8 i 0,8
-EXT 15,14 i 0,14
+EXT 8,15 h 8,0 FX slide_d
+EXT 12,15 h 12,0 FX slide_d
+EXT 5,15 h 5,0 FX slide_d
+EXT 15,5 i 0,5 FX slide_r
+EXT 15,6 i 0,6 FX slide_r
+EXT 15,7 i 0,7 FX slide_r
+EXT 15,8 i 0,8 FX slide_r
+EXT 15,14 i 0,14 FX slide_r
+EXT 5,0 n 5,15 FX slide_u
 PAL 5
 
 ROOM k
@@ -613,24 +624,25 @@ ROOM k
 1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 NAME forest11
-EXT 4,15 f 4,0
-EXT 5,15 f 5,0
-EXT 8,15 f 8,0
-EXT 9,15 f 9,0
-EXT 10,15 f 10,0
-EXT 13,15 f 13,0
-EXT 14,15 f 14,0
-EXT 0,6 i 15,6
-EXT 0,7 i 15,7
-EXT 0,8 i 15,8
+ITM c 9,3
+EXT 4,15 f 4,0 FX slide_d
+EXT 5,15 f 5,0 FX slide_d
+EXT 8,15 f 8,0 FX slide_d
+EXT 9,15 f 9,0 FX slide_d
+EXT 10,15 f 10,0 FX slide_d
+EXT 13,15 f 13,0 FX slide_d
+EXT 14,15 f 14,0 FX slide_d
+EXT 0,6 i 15,6 FX slide_l
+EXT 0,7 i 15,7 FX slide_l
+EXT 0,8 i 15,8 FX slide_l
 PAL 5
 
 ROOM l
-1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
-1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
-1z,0,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
-0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
-0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
+1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
+1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
+1z,0,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
+0,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
+0,0,1z,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,0,0,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,0,0,0,1z,1z
@@ -643,12 +655,30 @@ ROOM l
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest12
-EXT 11,0 c 10,15
-EXT 12,0 c 11,15
-EXT 2,0 c 2,15
-EXT 3,0 c 3,15
-EXT 0,3 m 15,3
-EXT 0,4 m 15,4
+ITM c 9,8
+ITM c 11,8
+ITM c 13,8
+ITM c 13,10
+ITM c 11,10
+ITM c 9,10
+ITM c 10,9
+ITM c 10,8
+ITM c 12,8
+ITM c 11,9
+ITM c 13,9
+ITM c 12,9
+ITM c 12,10
+ITM c 10,10
+ITM c 9,9
+ITM c 10,11
+ITM c 12,11
+ITM c 11,11
+EXT 10,0 c 10,15 FX slide_u
+EXT 11,0 c 11,15 FX slide_u
+EXT 2,0 c 2,15 FX slide_u
+EXT 3,0 c 3,15 FX slide_u
+EXT 0,3 m 15,3 FX slide_l
+EXT 0,4 m 15,4 FX slide_l
 PAL 5
 
 ROOM m
@@ -669,13 +699,36 @@ ROOM m
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest13
-EXT 2,0 d 2,15
-EXT 3,0 d 3,15
-EXT 15,3 l 0,3
-EXT 15,4 l 0,4
-EXT 11,0 d 11,15
-EXT 12,0 d 12,15
+ITM c 7,4
+EXT 2,0 d 2,15 FX slide_u
+EXT 3,0 d 3,15 FX slide_u
+EXT 15,3 l 0,3 FX slide_r
+EXT 15,4 l 0,4 FX slide_r
+EXT 11,0 d 11,15 FX slide_u
+EXT 12,0 d 12,15 FX slide_u
 PAL 5
+
+ROOM n
+1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,0,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z
+1z,1z,0,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+NAME forestEnd
+ITM b 5,5
+EXT 5,15 j 5,0 FX slide_d
+PAL 6
 
 TIL 17
 00000000
@@ -1351,6 +1404,7 @@ TIL 1z
 00011010
 00011100
 00011000
+NAME TREE
 WAL true
 
 TIL 2a
@@ -1861,8 +1915,7 @@ SPR A
 10111101
 10100101
 00110110
-POS 0 9,9
-ITM 9 1
+POS 0 7,9
 
 SPR a
 00000000
@@ -2606,6 +2659,19 @@ NAME poainting
 DLG SPR_c
 POS 1 8,8
 
+SPR 1o
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+NAME sacredCat
+DLG SPR_d
+POS n 5,6
+
 ITM 0
 00000000
 00000000
@@ -2724,18 +2790,6 @@ ITM 8
 NAME SEC
 DLG ITM_1
 
-ITM 9
-00000000
-01111110
-01000010
-01111110
-01011010
-01000010
-01111110
-00000000
-NAME forestKey
-DLG ITM_2
-
 ITM a
 00111000
 00111000
@@ -2755,6 +2809,30 @@ ITM a
 01110000
 01110000
 NAME secretlight
+
+ITM b
+00000000
+01111110
+01000010
+01111110
+01011010
+01000010
+01111110
+00000000
+NAME keY
+DLG ITM_3
+
+ITM c
+00000000
+01111110
+01000010
+01111110
+01011010
+01000010
+01111110
+00000000
+NAME fakekeY
+DLG ITM_4
 
 DLG SPR_0
 I'm a cat
@@ -2797,13 +2875,6 @@ Important relic in this direction!!
 DLG SPR_8
 Important relic up ahead!!
 
-DLG ITM_2
-"""
-You opened the chest.
-There was a key inside.
-Keeeeeeeeeeeeeeey.
-"""
-
 DLG SPR_9
 I take a peek out of window. The winds are strong and the scenery is beautiful. In the distance, I see my city.
 
@@ -2840,6 +2911,31 @@ DLG ITM_0
   - else ?
     Wait, I dropped my crystal ball somewhere around! I should probably come back for it!
 }
+"""
+
+DLG SPR_d
+"""
+I am the sacred cat of the forest. I hold the relic, but you must find all five keys in the forest to get it.
+Or something like that.{
+  - {item "keY"} >= 5 ?
+    Wait, what? You actually have all five keys? Alright fine. Take this thingy and go away. Forever, presumbably.
+  - else ?
+    Nya.
+}
+"""
+
+DLG ITM_3
+"""
+You opened the chest.
+
+You got a key!
+"""
+
+DLG ITM_4
+"""
+You opened the chest.
+
+No key inside. Sad.
 """
 
 END 0

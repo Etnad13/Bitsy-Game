@@ -4563,13 +4563,15 @@ Welcome to the temple of Grand Knighthood!
     It appears you are missing the hilt of the sword! Search the town for clues and the forest to the east! It is written the hilt resides there.
   - {item "keY"} >= 5 ?
     Great! You have found the hilt of the sword! 
-    {hilt =  = win + 1}
+    {hilt = 1}
+{win = win + 1}
 }{
   - {item "bladeStory"} == 0 ?
     And where is your blade? Every sword needs a blade, especially the one you need for accolade. Bring me the blade that is said to reside in the abandoned alchemist labs in the south. 
   - {item "bladeStory"} >= 1 ?
     You have the blade of the sword! Wonderful!
-    {blade =  = win + 1}
+    {blade = 1}
+{win = win + 1}
 }{
   - win >= 2 ?
     I can now bestow you with the honor of knighthood! You would make the Big KingGuy proud!

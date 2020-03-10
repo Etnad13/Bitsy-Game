@@ -88,7 +88,7 @@ p,p,s,20,y,25,24,24,24,24,28,y,20,20,20,20
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,q,20
 20,t,r,0,0,0,0,0,0,0,0,0,0,q,20,20
-p,p,p,y,y,y,0,y,y,y,y,y,y,20,20,20
+p,p,p,y,y,y,y,y,y,y,y,y,y,20,20,20
 e,t,p,t,p,t,p,t,s,t,t,t,p,20,t,e
 NAME portrait room
 EXT 0,11 3 15,10 FX fade_b
@@ -105,7 +105,7 @@ s,e,20,20,20,29,t,t,v,a,0,0,p,d,d,b
 x,x,x,x,x,0,x,x,0,0,0,0,0,c,c,d
 0,0,0,0,0,0,0,0,0,0,0,0,0,d,w,d
 0,0,0,0,0,0,0,0,0,0,0,0,0,c,d,d
-0,0,0,0,0,0,0,0,x,0,0,0,p,c,b,d
+0,0,0,0,0,0,0,0,0,0,0,0,p,c,b,d
 0,0,0,0,0,0,0,0,0,0,0,0,p,w,d,w
 h,0,0,0,0,0,0,0,0,0,0,0,p,d,c,0
 p,t,s,e,t,s,t,0,0,0,r,q,s,0,d,d
@@ -114,7 +114,6 @@ t,t,t,s,s,s,s,0,0,0,e,s,p,d,c,0
 g,g,t,t,t,g,g,0,0,0,t,s,t,d,d,0
 NAME window room
 ITM 7 9,5
-ITM 8 8,9
 ITM a 4,2
 EXT 0,11 1 15,11 FX slide_l
 EXT 8,15 4 1,1 FX wave
@@ -143,22 +142,22 @@ EXT 15,10 1 0,11 FX fade_w
 PAL 3
 
 ROOM 4
-3h,3g,3i,e,e,e,e,e,e,e,e,e,e,e,e,e
-3f,3e,3d,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,e,e,e,0,0,0,0,0,e
-e,0,0,0,0,0,0,3h,3g,3i,0,0,0,0,0,e
-e,0,0,0,0,0,3b,3j,3l,3k,3c,0,0,0,0,e
-e,0,0,0,0,0,0,3f,3m,3d,0,0,0,0,0,0
-e,0,0,0,0,e,e,e,3e,e,e,e,0,0,0,e
-e,0,0,0,e,e,e,0,0,0,e,e,e,0,0,e
-e,0,0,e,e,e,0,0,0,0,0,e,e,e,0,e
-e,0,e,e,e,0,0,0,0,0,0,0,e,e,e,e
-e,e,e,e,0,0,0,0,0,0,0,0,0,e,e,e
-e,e,e,0,0,0,0,0,3o,3p,0,0,0,0,e,e
+3h,3g,3i,5t,5t,5t,5t,5u,5u,5u,5t,5t,5t,5t,5t,5s
+3f,3e,3d,0,0,0,0,e,e,e,0,0,0,0,0,5r
+5q,0,0,0,0,0,0,58,5b,5c,0,0,0,0,0,5r
+5q,0,0,0,0,0,0,56,58,5b,0,0,5g,5h,0,1z
+58,5b,0,0,0,0,0,57,5a,54,0,0,5j,5i,0,1z
+58,59,5a,0,0,0,0,58,59,5a,0,0,0,0,0,1z
+54,5g,5k,0,0,0,0,54,54,55,0,0,0,0,d,c
+54,5o,5l,0,0,0,0,3h,3g,3i,0,0,0,0,d,c
+5q,0,0,0,0,0,3b,3j,3l,3k,3c,0,0,0,0,1z
+5q,0,0,0,0,0,0,41,3m,42,0,0,0,0,0,0
+5m,5m,5p,0,0,1y,5e,3f,3e,3d,5e,1y,0,0,0,1z
+4d,4d,5m,5p,0,5e,5g,5k,0,0,0,5e,0,0,d,c
+4d,4d,4d,5p,0,5e,5j,5l,0,0,0,5e,0,0,d,c
+5m,4d,4d,5p,1y,5e,0,0,0,0,0,5e,1y,0,0,1z
+4d,4d,5m,5p,5e,0,0,0,0,0,0,0,5e,0,0,1z
+4d,4d,4d,5p,1y,0,0,3o,5f,3p,0,0,1y,0,0,1z
 NAME town overview
 EXT 15,9 9 0,7 FX tunnel
 EXT 15,9 9 0,8 FX tunnel
@@ -179,13 +178,13 @@ p,0,3s,3q,3r,0,0,0,0,0,0,3s,3x,0,0,p
 p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,t
 v,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,q
-s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,t
-s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,t
-p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,t
-s,0,0,0,0,0,0,0,0,0,3h,40,3g,40,3i,s
-s,0,0,0,0,0,0,0,0,0,3f,3z,3e,3z,3d,s
-s,r,y,y,y,y,0,0,0,0,0,0,0,0,q,s
+r,0,0,0,5x,3w,0,0,0,0,0,0,0,0,0,q
+s,0,0,3t,3u,3u,5y,5z,0,0,0,0,0,0,0,t
+s,4b,4c,3s,5w,43,44,60,0,0,0,0,0,0,0,t
+p,4i,4n,4d,0,0,0,0,0,0,0,0,0,0,0,t
+s,5v,5s,4d,0,0,0,0,0,0,3h,40,3g,40,3i,s
+s,5q,5r,4d,4d,0,0,0,0,0,3f,3z,3e,3z,3d,s
+s,4d,4d,4d,4d,y,0,0,0,0,0,0,0,4d,q,s
 s,s,p,p,s,s,r,0,q,s,t,s,t,s,s,s
 NAME left town
 EXT 0,7 4 6,8
@@ -223,18 +222,18 @@ ROOM a
 1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,1z,1z,0,0,0,0,0,0
 1z,1z,1z,1z,1z,0,1z,1z,1z,0,0,0,d,0,0,0
-1z,1z,1z,1z,1z,0,1z,1z,0,d,d,0,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,0,d,0,0,1z,1z,1z,1z
 1z,1z,1z,1z,0,d,1z,1z,1z,0,0,0,1z,1z,1z,1z
-1z,1z,1z,0,d,d,1z,1z,1z,0,0,d,1z,1z,1z,1z
+1z,1z,1z,0,0,d,1z,1z,1z,0,0,d,1z,1z,1z,1z
 1z,1z,1z,0,0,0,1z,1z,1z,1z,0,0,0,0,0,0
 1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,0,0,0,0,0,0,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,0,0,0,0,0,0,0,1z,1z,1z,1z
-1z,0,0,d,d,0,0,0,0,0,0,d,d,0,0,0
-0,d,0,0,0,0,d,d,0,0,d,d,0,0,0,0
+1z,0,0,d,0,0,0,0,0,0,0,0,d,0,0,0
+0,d,0,0,0,0,0,d,0,0,d,0,0,0,0,0
 0,d,0,0,0,0,0,0,0,d,0,0,0,1z,1z,1z
-1z,1z,0,0,d,d,0,0,0,0,1z,1z,1z,1z,1z,1z
+1z,1z,0,0,0,d,0,0,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 NAME forest1
 ITM b 8,9
@@ -256,15 +255,15 @@ ROOM b
 0,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z
 0,0,0,0,0,0,w,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,1z,0,w,w,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,1z,0,0,w,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,0,0
 1z,1z,1z,1z,0,0,1z,1z,1z,1z,1z,0,0,0,0,0
 1z,1z,1z,w,0,0,1z,1z,1z,1z,0,0,d,d,0,0
-1z,1z,0,0,0,0,0,0,0,0,b,0,d,d,0,1z
+1z,1z,0,0,0,0,0,0,0,0,b,0,0,d,0,1z
 0,0,0,0,0,0,w,0,d,0,0,0,0,0,0,1z
-0,0,0,0,0,0,0,0,d,0,b,0,0,1z,1z,1z
+0,0,0,0,0,0,0,0,0,0,0,0,0,1z,1z,1z
 1z,1z,0,0,1z,1z,1z,0,0,0,0,1z,1z,1z,1z,1z
 1z,0,0,0,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 1z,0,0,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
@@ -290,16 +289,16 @@ ROOM c
 1z,0,0,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 0,0,0,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 0,0,d,1z,1z,1z,1z,0,0,d,1z,1z,1z,1z,1z,1z
-1z,1z,1z,1z,1z,1z,1z,0,0,d,1z,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,0,0,0,0,w,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,0,0,0,0,0,0,0,1z,1z
 1z,1z,1z,1z,1z,1z,1z,d,0,0,0,1z,1z,d,0,1z
 1z,1z,1z,1z,1z,1z,1z,d,0,0,d,1z,1z,1z,0,1z
-c,d,0,0,0,0,0,0,0,0,1z,1z,1z,1z,0,1z
+c,0,0,0,0,0,0,0,0,0,1z,1z,1z,1z,0,1z
 0,0,0,0,0,0,0,0,0,0,1z,1z,1z,1z,w,1z
-0,0,w,d,d,d,0,0,0,0,b,1z,1z,0,0,1z
-1z,1z,1z,1z,1z,1z,0,0,0,0,0,0,d,d,1z,1z
-1z,1z,1z,1z,1z,b,0,0,d,0,0,0,d,1z,1z,1z
+0,0,0,0,d,d,0,0,0,0,b,1z,1z,0,0,1z
+1z,1z,1z,1z,1z,1z,0,0,0,0,0,0,0,d,1z,1z
+1z,1z,1z,1z,1z,b,0,0,0,0,0,0,d,1z,1z,1z
 0,0,0,0,0,0,0,d,1z,d,0,0,1z,1z,1z,1z
 0,0,0,0,0,0,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
@@ -323,19 +322,19 @@ PAL 5
 
 ROOM d
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,1z,1z,0,0,d,d,d,d,0,d,d,d,d,0,0
+1z,1z,1z,0,0,0,d,0,d,0,d,0,d,d,0,0
 1z,1z,1z,0,0,0,0,0,0,0,0,0,0,0,0,0
-1z,1z,1z,0,0,d,d,d,d,0,0,0,d,d,0,1z
-1z,1z,1z,1z,0,0,0,0,0,0,d,d,d,0,0,1z
+1z,1z,1z,0,0,0,d,0,d,0,0,0,d,d,0,1z
+1z,1z,1z,1z,0,0,0,0,0,0,d,0,d,0,0,1z
 1z,1z,1z,1z,0,0,0,0,0,0,0,0,0,0,1z,1z
-1z,1z,1z,1z,1z,0,0,d,d,d,0,0,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,0,d,0,d,0,0,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,c,c,0,0,0
+1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,c,0,0,0,0
 1z,0,b,b,0,1z,1z,1z,1z,1z,0,0,0,0,0,0
 1z,0,b,b,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,d,d,0,0
+1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,d,0,0,0
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,0
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z
 NAME forest4
@@ -363,9 +362,9 @@ ROOM e
 1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z,0,d,d,1z
 1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z,0,0,0,1z
 0,0,1z,1z,1z,0,0,0,1z,1z,1z,1z,0,0,0,1z
-0,0,0,1z,1z,0,0,0,d,0,d,d,d,0,0,1z
+0,0,0,1z,1z,0,0,0,d,0,d,0,d,0,0,1z
 0,0,0,d,d,0,0,0,0,0,0,0,0,0,1z,1z
-1z,0,0,0,0,0,d,d,d,0,1z,1z,1z,1z,1z,1z
+1z,0,0,0,0,0,0,d,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,0,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
@@ -387,14 +386,14 @@ ROOM f
 1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 1z,1z,1z,1z,0,0,d,d,0,0,d,1z,1z,0,0,1z
 1z,1z,1z,1z,0,0,0,0,0,0,1z,1z,0,0,0,1z
-1z,1z,1z,d,d,0,0,0,0,d,1z,1z,0,d,d,1z
-0,0,1z,1z,1z,0,0,d,0,1z,1z,1z,0,0,0,1z
-0,0,0,1z,1z,0,0,0,d,1z,1z,1z,0,0,0,1z
-0,0,0,0,d,0,0,0,0,d,0,0,0,0,0,1z
-0,0,0,0,0,d,d,0,0,0,0,0,0,0,c,1z
-1z,0,d,d,0,0,0,0,d,d,d,1z,1z,1z,1z,1z
+1z,1z,1z,d,0,0,0,0,0,d,1z,1z,0,0,d,1z
+0,0,1z,1z,1z,0,0,0,0,1z,1z,1z,0,0,0,1z
+0,0,0,1z,1z,0,0,0,0,1z,1z,1z,0,0,0,1z
+0,0,0,0,d,0,0,0,0,0,0,0,0,0,0,1z
+0,0,0,0,0,0,d,0,0,0,0,0,0,0,c,1z
+1z,0,d,d,0,0,0,0,d,0,d,1z,1z,1z,1z,1z
 1z,1z,0,0,0,0,0,0,0,1z,1z,1z,0,0,0,1z
-1z,1z,1z,0,0,d,d,0,1z,1z,1z,1z,0,0,0,1z
+1z,1z,1z,0,0,d,0,0,1z,1z,1z,1z,0,0,0,1z
 1z,1z,1z,1z,0,0,0,0,1z,1z,1z,1z,0,0,0,1z
 1z,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,0,0,1z
 1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z,1z,0,0,1z
@@ -423,13 +422,13 @@ ROOM g
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,d,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,d,d,0,d,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
-1z,d,0,0,0,1z,1z,1z,d,0,0,0,0,0,d,0
-1z,0,0,0,d,1z,1z,1z,0,0,0,0,d,0,d,0
-1z,0,0,0,d,1z,1z,0,d,d,0,0,0,0,0,0
-0,0,d,d,1z,1z,0,0,0,0,0,0,0,0,0,0
+1z,d,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
+1z,0,0,0,0,1z,1z,1z,d,0,0,0,0,0,d,0
+1z,0,0,0,0,1z,1z,1z,0,0,0,0,d,0,d,0
+1z,0,0,0,d,1z,1z,0,d,0,0,0,0,0,0,0
+0,0,0,d,1z,1z,0,0,0,0,0,0,0,0,0,0
 1z,1z,1z,1z,1z,0,0,0,0,0,0,d,1z,1z,1z,1z
-1z,1z,1z,1z,1z,0,0,0,0,d,d,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,0,0,0,d,0,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,0,d,d,0,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,0,0,0,0,1z,1z,1z,1z,1z,1z,1z,1z
@@ -455,9 +454,9 @@ ROOM h
 1z,1z,1z,1z,1z,0,1z,1z,0,1z,1z,d,0,0,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,1z,1z,0,0,d,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,1z,1z,1z,1z,1z,1z,1z
-1z,1z,1z,1z,1z,0,1z,1z,0,d,d,1z,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,0,0,d,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,0,0,0,0,0,0,0
-1z,1z,1z,1z,1z,0,1z,1z,0,d,d,0,d,d,0,1z
+1z,1z,1z,1z,1z,0,1z,1z,0,0,d,0,d,0,0,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,0,0,0,0,0,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,1z,d,0,d,0,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,1z,1z,1z,d,1z,1z,1z,1z
@@ -512,7 +511,7 @@ ROOM j
 1z,1z,1z,1z,1z,0,1z,1z,d,d,0,0,0,0,0,0
 1z,1z,1z,1z,1z,0,1z,1z,d,0,0,0,0,0,0,0
 1z,1z,1z,1z,1z,0,1z,1z,0,0,0,0,0,0,0,0
-1z,1z,1z,1z,1z,0,1z,1z,0,0,d,d,1z,1z,1z,1z
+1z,1z,1z,1z,1z,0,1z,1z,0,0,0,d,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,0,d,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,0,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,0,1z,1z,0,0,1z,1z,1z,1z,1z,1z
@@ -542,10 +541,10 @@ ROOM k
 0,0,0,0,0,d,1z,1z,1z,1z,0,0,0,1z,1z,1z
 0,0,0,0,0,0,1z,1z,1z,d,0,0,0,1z,1z,1z
 1z,1z,0,0,0,0,1z,1z,1z,d,0,0,0,1z,1z,1z
-1z,1z,c,d,0,0,1z,1z,1z,d,0,0,1z,1z,1z,1z
+1z,1z,c,0,0,0,1z,1z,1z,0,0,0,1z,1z,1z,1z
 1z,1z,1z,c,0,0,1z,1z,1z,0,0,0,1z,1z,1z,1z
 1z,1z,1z,1z,0,0,1z,1z,1z,0,0,0,1z,0,0,1z
-1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,d,0,1z
+1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 1z,1z,1z,1z,0,0,1z,1z,0,0,0,1z,1z,0,0,1z
 NAME forest11
@@ -565,7 +564,7 @@ PAL 5
 ROOM l
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
-1z,0,d,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
+1z,0,0,0,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 0,0,0,c,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 0,0,c,c,1z,1z,1z,1z,1z,1z,0,0,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,0,0,0,1z,1z,1z
@@ -616,10 +615,10 @@ ROOM m
 1z,1z,0,0,1z,1z,1z,c,1z,1z,1z,1z,1z,0,0,1z
 1z,1z,0,0,1z,1z,1z,1z,1z,1z,1z,0,0,0,0,1z
 1z,1z,0,0,0,1z,1z,1z,1z,1z,1z,0,0,0,1z,1z
-1z,1z,d,d,0,0,1z,1z,1z,1z,0,0,0,d,1z,1z
+1z,1z,d,0,0,0,1z,1z,1z,1z,0,0,0,d,1z,1z
 1z,1z,0,0,0,0,0,0,0,0,0,0,d,d,1z,1z
 1z,1z,0,0,0,0,0,0,0,d,0,0,0,1z,1z,1z
-1z,1z,d,d,0,d,d,d,0,0,0,d,d,1z,1z,1z
+1z,1z,d,0,0,d,d,0,0,0,0,d,d,1z,1z,1z
 1z,1z,1z,0,0,0,0,0,0,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
 1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z,1z
@@ -687,7 +686,7 @@ a,g,s,s,s,s,s,0,0,s,s,s,s,p,g,a
 g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,4v,0,0,0,0,0,0,0,0,0,0,0,g,s
+t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
@@ -711,7 +710,7 @@ a,g,s,s,s,s,s,0,0,s,s,s,s,p,g,a
 g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,4w,0,0,0,0,0,0,0,0,0,0,0,g,s
+t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
@@ -734,7 +733,7 @@ a,g,s,s,s,s,s,0,0,s,s,s,s,p,g,a
 g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,4x,0,0,0,0,0,0,0,0,0,0,0,g,s
+t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
@@ -757,7 +756,7 @@ g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,4y,0,0,0,4t,0,0,4u,0,0,0,0,g,s
+t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
 t,g,4e,4d,4d,4d,4d,4d,4d,4d,4d,4d,4d,4l,g,s
@@ -780,7 +779,7 @@ g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,4z,0,0,0,4t,0,0,4u,0,0,0,0,g,s
+t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
 t,g,4e,4d,4d,4d,4d,4q,4q,4d,4d,4d,4d,4l,g,s
@@ -802,7 +801,7 @@ a,g,s,s,s,s,s,0,0,s,s,s,s,p,g,a
 g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,50,0,0,0,0,0,0,0,0,0,0,0,g,s
+t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
@@ -825,7 +824,7 @@ g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,0,51,0,0,4t,0,0,4u,0,0,0,0,g,s
+t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
 t,g,4e,4d,4d,4d,4d,4d,4d,4d,4d,4d,4d,4l,g,s
@@ -847,7 +846,7 @@ g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,52,0,0,0,4t,0,0,4u,0,0,0,0,g,s
+t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
 t,g,4e,4d,4d,4d,4d,4q,4q,4d,4d,4d,4d,4l,g,s
@@ -869,7 +868,7 @@ g,s,s,s,s,s,s,0,0,t,s,s,s,p,p,g
 t,g,g,g,g,0,0,0,0,0,0,0,g,g,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
 t,g,0,0,0,0,0,0,0,0,0,0,0,0,g,s
-t,g,53,0,0,0,4t,0,0,4u,0,0,0,0,g,s
+t,g,0,0,0,0,4t,0,0,4u,0,0,0,0,g,s
 t,g,0,0,0,0,4q,4q,4q,4q,0,0,0,0,g,s
 t,g,4b,48,47,48,47,4q,4q,49,4a,49,4a,4c,g,s
 t,g,4e,4d,4d,4d,4d,4q,4q,4d,4d,4d,4d,4l,g,s
@@ -1107,7 +1106,7 @@ TIL 43
 11001111
 00001000
 00001000
-11111001
+11111000
 NAME mainGate
 WAL true
 
@@ -1236,6 +1235,90 @@ TIL 53
 00111000
 NAME 9
 
+TIL 54
+00000000
+00100000
+01010010
+10001101
+00001000
+00110000
+01010000
+10001000
+NAME mountains1
+WAL true
+
+TIL 55
+00000000
+00001000
+00010100
+00100010
+11000001
+01000000
+00100010
+00010101
+NAME mountains2
+WAL true
+
+TIL 56
+00000000
+00000000
+00010000
+00101000
+01000100
+10001010
+01010101
+00100010
+NAME mountans3
+WAL true
+
+TIL 57
+00000000
+00000000
+00000000
+00010000
+00101001
+01000110
+01000100
+10001000
+NAME mount5
+WAL true
+
+TIL 58
+00000001
+00000011
+00000110
+00001000
+00010000
+00100010
+01000101
+10001000
+NAME mount6
+WAL true
+
+TIL 59
+10000000
+11000000
+01100001
+00010010
+00001100
+00100100
+01010010
+10001001
+NAME mount7
+WAL true
+
+TIL 60
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+01000000
+11000000
+NAME inTownz2
+WAL false
+
 TIL a
 11111111
 10000001
@@ -1309,17 +1392,8 @@ TIL d
 NAME grass
 
 TIL e
-00101101
-01101101
-01011010
-11010110
-10110101
-10101101
-10101010
-10101010
->
-00101101
-01101101
+00101001
+01101001
 01011010
 11010110
 10110101
@@ -1757,7 +1831,7 @@ TIL 1y
 01111110
 01100110
 01100110
-NAME fence, i swear
+NAME fence
 WAL true
 
 TIL 1z
@@ -1769,7 +1843,7 @@ TIL 1z
 00011010
 00011100
 00011000
-NAME TREE
+NAME tree
 WAL true
 
 TIL 2a
@@ -2705,6 +2779,358 @@ TIL 4z
 00111000
 NAME 5
 
+TIL 5a
+00000000
+00000000
+00000000
+10010000
+01101000
+00100100
+10010010
+01001001
+NAME mountain8
+WAL true
+
+TIL 5b
+10000000
+11000000
+01100000
+00010000
+00001000
+00000100
+01000010
+10100001
+NAME mount11
+WAL true
+
+TIL 5c
+00000000
+00001000
+00010100
+00100010
+01000001
+01010000
+10101010
+11000101
+NAME mount12
+WAL true
+
+TIL 5d
+00000000
+00000000
+00000000
+00000000
+00000000
+10101010
+10101010
+10101010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+01010101
+10010101
+10101010
+NAME small grass
+
+TIL 5e
+00000000
+00000000
+00000000
+01100110
+11111111
+11111111
+01100110
+01100110
+NAME fence2
+WAL true
+
+TIL 5f
+00000000
+00111100
+11111111
+00000000
+00000000
+11111111
+00001110
+00001110
+NAME alchmentr
+WAL true
+
+TIL 5g
+00000000
+00110000
+01001000
+11111100
+01001000
+01001001
+01111011
+00000001
+NAME outcity1
+WAL true
+
+TIL 5h
+00001110
+00011111
+00001010
+01001110
+10100000
+00010000
+11111000
+00010000
+NAME outcity2
+WAL true
+
+TIL 5i
+00010000
+01010000
+11110000
+00011100
+01111111
+00100010
+00100110
+00111110
+NAME outcity3
+WAL true
+
+TIL 5j
+00110001
+11111101
+01111001
+01001000
+01111000
+01001000
+01111000
+00000000
+NAME outcity4
+WAL true
+
+TIL 5k
+00000000
+00000000
+00000000
+01100000
+10010000
+01101000
+11111100
+00001000
+NAME outcity5
+WAL true
+
+TIL 5l
+00101000
+00101000
+11111000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME outcity6
+WAL true
+
+TIL 5m
+00000000
+00000000
+00011100
+11100011
+00000000
+00011100
+11100011
+00000000
+>
+00000000
+00000000
+00111000
+11000111
+00000000
+00111000
+11000111
+00000000
+NAME water
+WAL true
+
+TIL 5n
+00000000
+00000000
+00000000
+11000110
+11111111
+11001111
+00110011
+11111111
+>
+00000000
+00000000
+00000000
+11000110
+11111111
+11001111
+00110011
+11111111
+
+TIL 5o
+00011101
+00111111
+00010101
+00011100
+00111000
+01111100
+00101000
+00111000
+NAME outcity7
+WAL true
+
+TIL 5p
+00000000
+00000000
+00000000
+10000000
+00000000
+00000000
+10000000
+00000000
+>
+00000000
+00000000
+00000000
+11000000
+00000000
+00000000
+11000000
+00000000
+NAME water2
+WAL false
+
+TIL 5q
+10100000
+11100000
+10100000
+11100000
+10100000
+11100000
+10100000
+11100000
+NAME wallsmall
+WAL true
+
+TIL 5r
+00000101
+00000111
+00000101
+00000111
+00000101
+00000111
+00000101
+00000111
+NAME wallsmall
+WAL true
+
+TIL 5s
+11111111
+10101011
+11111101
+00000111
+00000101
+00000111
+00000101
+00000111
+NAME wallcorner
+WAL true
+
+TIL 5t
+11111111
+10101010
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME walltop
+WAL true
+
+TIL 5u
+11111111
+10101010
+11111111
+00000000
+00000000
+00010100
+00101001
+00101001
+NAME walltopand
+WAL true
+
+TIL 5v
+11111111
+10101010
+11111111
+10100000
+11100000
+10100000
+11100000
+10100000
+WAL true
+
+TIL 5w
+11000000
+11010011
+11000011
+00001011
+01000011
+00010000
+00000000
+11111111
+NAME intown14
+WAL true
+
+TIL 5x
+00111110
+01000001
+00111110
+00000000
+00011100
+00100010
+00011100
+00000000
+>
+00000000
+00111110
+01000001
+00111110
+00000000
+00011100
+00100010
+00011100
+NAME inTown16
+
+TIL 5y
+00000000
+00000000
+00000000
+11111111
+00000000
+00000000
+11111111
+01000100
+NAME inTownz
+WAL true
+
+TIL 5z
+00000000
+00000000
+00000000
+10000000
+01000000
+00100000
+11100000
+01000000
+NAME inTownz1
+WAL false
+
 SPR 10
 00111000
 00111000
@@ -2939,6 +3365,7 @@ SPR a
 00111100
 00100100
 DLG SPR_0
+POS 5 1,5
 
 SPR b
 00000000
@@ -2960,6 +3387,7 @@ SPR b
 01101100
 NAME npc1
 DLG SPR_f
+POS 5 7,4
 
 SPR c
 00111100
@@ -3738,6 +4166,84 @@ SPR 1s
 11111111
 NAME switch2
 
+SPR 1t
+00000000
+00111000
+00111000
+00111000
+01111100
+01010100
+00010000
+00111000
+>
+00000000
+00111000
+00111000
+00111000
+11111110
+10101010
+00101000
+01101100
+NAME npc2
+DLG SPR_g
+POS 5 4,11
+
+SPR 1u
+00000000
+00111000
+00111000
+00111000
+01111100
+01101100
+00101000
+01101100
+>
+00000000
+00111000
+00111000
+00111000
+11111110
+10101010
+00101000
+01101100
+NAME npc3
+DLG SPR_h
+POS 5 14,5
+
+SPR 1v
+00000000
+01111100
+01111100
+01010100
+00111000
+01111100
+00101000
+01101100
+>
+00000000
+01111100
+01111100
+01111100
+11111110
+00101000
+00101000
+01101100
+NAME npo4
+DLG SPR_i
+POS 5 9,14
+
+SPR 1w
+11111111
+10000000
+10111110
+11011111
+11111111
+10000110
+10110110
+10110110
+DLG SPR_j
+POS o 8,10
+
 ITM 0
 00000000
 00000000
@@ -4003,9 +4509,9 @@ DLG ITM_0
 DLG SPR_d
 """
 I am the sacred cat of the forest. I hold the relic, but you must find all five keys in the forest to get it.
-Or something like that.{
+Or something like that. {
   - {item "keY"} >= 5 ?
-    Wait, what? You actually have all five keys? Alright fine. Take this thingy and go away. Forever, presumbably.
+    Wait, what? You actually have all five keys? Alright fine. Take this thingy and go away. I  have no use for this hilt. 
   - else ?
     Nya.
 }
@@ -4015,7 +4521,10 @@ DLG ITM_3
 """
 You opened the chest.
 
-You got a key!
+You got a key!{
+  - {item "keY"} >= 5 ?
+    Ok, You got all of them! Look for the sacred cat of the forest! They can often be seen around the north of this temple, close to the entrance
+}
 """
 
 DLG ITM_4
@@ -4024,9 +4533,6 @@ You opened the chest.
 
 No key inside. Sad.
 """
-
-DLG SPR_e
-{wvy}WELCOME TO THE TEMPLE OF GRAND NOBLE KNIGHTHOOD™{wvy}
 
 DLG SPR_f
 """
@@ -4047,6 +4553,73 @@ The Blade of the Big KingDude!
 It is finally ours!
 """
 
+DLG SPR_e
+"""
+Welcome to the temple of Grand Knighthood! 
+{sequence
+  - It is my duty to confer knighthood to any person that passes the trial of finding the Big KingGuy's Sword!
+  - 
+}{
+  - {item "keY"} < 5 ?
+    It appears you are missing the hilt of the sword! Search the town for clues and the forest to the east! It is written the hilt resides there.
+  - {item "keY"} >= 5 ?
+    Great! You have found the hilt of the sword! 
+    {hilt =  = win + 1}
+}{
+  - {item "bladeStory"} == 0 ?
+    And where is your blade? Every sword needs a blade, especially the one you need for accolade. Bring me the blade that is said to reside in the abandoned alchemist labs in the south. 
+  - {item "bladeStory"} >= 1 ?
+    You have the blade of the sword! Wonderful!
+    {blade =  = win + 1}
+}{
+  - win >= 2 ?
+    I can now bestow you with the honor of knighthood! You would make the Big KingGuy proud!
+    
+    Thanks for playing the game!
+    Mateusz Murawski
+    Dante Martinez
+    Eugene Nguyen
+  - else ?
+
+}
+"""
+
+DLG SPR_g
+"""
+{shuffle
+  - Working at the stables is kinda tiring.
+  - How are your knighthood trials going? I heard the forest trial is tedious and some knights took days to complete it
+  - Say hi to the temple guard from me. I am no knight but I like to listen to him talk lore of this land every now and then
+  - Alchemist lab? I think that's in the south. I heard strange things are happening there.
+}
+"""
+
+DLG SPR_h
+"""
+{cycle
+  - This is the way to the forest. It's the place of many secrets and hidden passages. Be careful not to get lost. 
+  - Strange relics of the bygone era are hiding in the forest. 
+  - I heard the hilt of a sword that once belong to our old king can be found in the forest. I heard it is guarded by a cat. A cat out of all the things hahaha... 
+}
+"""
+
+DLG SPR_i
+"""
+{cycle
+  - This helmet is kinda painful to wear to be honest. 
+  - This is the way to the old alchemist lab. It is long been abandoned but magic still hides there. 
+  - Wow, you wanna be a knight? Good luck! You can do this! 
+}
+"""
+
+DLG SPR_j
+"""
+{sequence
+  - This is a shelf full of old books.
+  - Some mention that the alchemists here managed to create teleporting bridges. Interesting...
+}
+"""
+
 END 0
 The end
 
@@ -4056,9 +4629,12 @@ The end
 END 2
 The end
 
-VAR Health
-50
+VAR hilt
+0
 
-VAR Money
+VAR blade
+0
+
+VAR win
 0
 
